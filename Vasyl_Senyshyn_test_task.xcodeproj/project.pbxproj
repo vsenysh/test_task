@@ -103,12 +103,12 @@
 			path = WelcomeScreenController;
 			sourceTree = "<group>";
 		};
-		368151F52589251A00D8ED4E /* New Group */ = {
+		368151F52589251A00D8ED4E /* WebView */ = {
 			isa = PBXGroup;
 			children = (
 				360B110D2589240300DA478B /* WebViewController.swift */,
 			);
-			path = "New Group";
+			path = WebView;
 			sourceTree = "<group>";
 		};
 		36DA78B22566CADA00DF48BC = {
@@ -160,7 +160,7 @@
 			children = (
 				366AD203256807850065AF37 /* WelcomeScreenController */,
 				366AD200256807480065AF37 /* NewsTableViewCell */,
-				368151F52589251A00D8ED4E /* New Group */,
+				368151F52589251A00D8ED4E /* WebView */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
