@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		36015D632568107E00C1700B /* NewsModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36015D622568107E00C1700B /* NewsModel.swift */; };
 		360B110E2589240300DA478B /* WebViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 360B110D2589240300DA478B /* WebViewController.swift */; };
 		365A7DB42568023000E01E40 /* ArticlesViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 365A7DB22568023000E01E40 /* ArticlesViewCell.swift */; };
 		365A7DB52568023000E01E40 /* ArticleViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 365A7DB32568023000E01E40 /* ArticleViewCell.xib */; };
@@ -22,7 +21,6 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		36015D622568107E00C1700B /* NewsModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsModel.swift; sourceTree = "<group>"; };
 		360B110D2589240300DA478B /* WebViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebViewController.swift; sourceTree = "<group>"; };
 		365A7DB22568023000E01E40 /* ArticlesViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArticlesViewCell.swift; sourceTree = "<group>"; };
 		365A7DB32568023000E01E40 /* ArticleViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ArticleViewCell.xib; sourceTree = "<group>"; };
@@ -150,7 +148,6 @@
 			children = (
 				36DA78EB2566D69E00DF48BC /* NewsManager.swift */,
 				36D54B13256714430035D51C /* NewsData.swift */,
-				36015D622568107E00C1700B /* NewsModel.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -242,7 +239,6 @@
 				36D54B14256714430035D51C /* NewsData.swift in Sources */,
 				360B110E2589240300DA478B /* WebViewController.swift in Sources */,
 				368151F92589264800D8ED4E /* UImageExtension.swift in Sources */,
-				36015D632568107E00C1700B /* NewsModel.swift in Sources */,
 				36DA78EC2566D69E00DF48BC /* NewsManager.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -312,7 +308,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -367,7 +363,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -383,6 +379,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 86657AMSZL;
 				INFOPLIST_FILE = "Vasyl_Senyshyn_test_task/Resources/Supporting Files/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -402,6 +399,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 86657AMSZL;
 				INFOPLIST_FILE = "Vasyl_Senyshyn_test_task/Resources/Supporting Files/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (

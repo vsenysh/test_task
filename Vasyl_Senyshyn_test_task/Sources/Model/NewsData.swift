@@ -1,7 +1,5 @@
 import Foundation
 
-
-
 struct Root: Codable {
     let status: String
     let totalResults: Int
