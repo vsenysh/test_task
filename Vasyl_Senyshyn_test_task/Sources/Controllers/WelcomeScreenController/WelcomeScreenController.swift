@@ -6,7 +6,7 @@ class WelcomeScreen: UITableViewController, NetworkManagerDelegate, WKNavigation
     
     var networkManager = NetworkManager()
     var posts = [Article]()
-    
+
     private var paginatedPosts: [Article] = []
 
     override func viewDidLoad() {
@@ -29,9 +29,7 @@ class WelcomeScreen: UITableViewController, NetworkManagerDelegate, WKNavigation
         return 1
     }
     
-    override func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {
-        return UITableView.automaticDimension
-    }
+
     
     override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         
@@ -104,4 +102,5 @@ class WelcomeScreen: UITableViewController, NetworkManagerDelegate, WKNavigation
         
     }
 }
+
 
